@@ -14,5 +14,12 @@ pnpm dev
 
 ## 課題1
 
-Next.jsを使用して、`src/pages/index.tsx`のみを編集して、以下のようなページを作ってください。
+Next.jsとChakra UIを使用して、`src/pages/index.tsx`のみを編集して、以下のようなページを作ってください。
 
+どちらもすでにインストールされています。
+
+### 使用するAPI
+
+`https://pokeapi.co/api/v2/pokemon/<ID>`(ID 25がピカチュウ)
+
+取得したJSONの中の、`json.name`が名前(英語)、`json.sprites.front_default`が画像です。
