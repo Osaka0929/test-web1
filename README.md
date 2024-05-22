@@ -6,6 +6,7 @@
 
 ```bash
 git clone git@github.com:<あなたのユーザー名>/test-web1.git
+cd test-web1
 pnpm install
 pnpm dev
 ```
