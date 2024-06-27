@@ -37,3 +37,43 @@ Next.jsとChakra UIを使用して、`src/pages/login.tsx`のみを編集して�
 どちらもすでにインストールされています。
 
 ### 使用するAPI
+
+POST https://api.we.tips/v1/login
+
+```json
+{
+    "id": "<ID>",
+    "password": "<パスワード>"
+}
+```
+
+でリクエストすると、
+
+```json
+{
+    "accessToken": "<Access Token>",
+    "expiresIn": 86400,
+    "expiresAt": 1719574844,
+    "refreshToken": "<Refresh Token>",
+    "requiresUpdate": false,
+    "userData": {
+        "success": true,
+        "username": "<ID>",
+        "attributes": {
+            "sub": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "email_verified": "true",
+            "admin": true,
+            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "role": "teacher",
+            "email": "test@example.com",
+            "displayName": "<お名前>",
+            "director": [
+                "<チームの名前>",
+                "<チームの名前>"
+            ]
+        }
+    }
+}
+```
+
+と帰ってきます。
