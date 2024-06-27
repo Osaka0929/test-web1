@@ -16,6 +16,12 @@ pnpm dev
 
 Next.jsとChakra UIを使用して、`src/pages/index.tsx`のみを編集して、以下のようなページを作ってください。
 
+
+
+https://github.com/tips-toyama/test-web1/assets/17561618/2a23c718-a48c-4b9f-b375-9294a0e923fe
+
+
+
 どちらもすでにインストールされています。
 
 ### 使用するAPI
