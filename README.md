@@ -32,6 +32,10 @@ https://github.com/tips-toyama/test-web1/assets/17561618/2a23c718-a48c-4b9f-b375
 
 # 課題2
 
+https://github.com/tips-toyama/test-web1/assets/17561618/6207d2d1-dbee-40f0-8f9d-522b5596ba6f
+
+
+
 Next.jsとChakra UIを使用して、`src/pages/login.tsx`のみを編集して、以下のようなページを作ってください。
 
 どちらもすでにインストールされています。
