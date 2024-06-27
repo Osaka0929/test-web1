@@ -23,3 +23,11 @@ Next.jsとChakra UIを使用して、`src/pages/index.tsx`のみを編集して�
 `https://pokeapi.co/api/v2/pokemon/<ID>`(ID 25がピカチュウ)
 
 取得したJSONの中の、`json.name`が名前(英語)、`json.sprites.front_default`が画像です。
+
+# 課題2
+
+Next.jsとChakra UIを使用して、`src/pages/login.tsx`のみを編集して、以下のようなページを作ってください。
+
+どちらもすでにインストールされています。
+
+### 使用するAPI
