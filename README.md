@@ -30,3 +30,54 @@ https://github.com/tips-toyama/test-web1/assets/17561618/2a23c718-a48c-4b9f-b375
 `https://pokeapi.co/api/v2/pokemon/<ID>`(ID 25がピカチュウ)
 
 取得したJSONの中の、`json.name`が名前(英語)、`json.sprites.front_default`が画像です。
+
+# 課題2
+
+https://github.com/tips-toyama/test-web1/assets/17561618/75fc4ac9-8358-43a9-b43d-3c7ae7bf99a7
+
+
+Next.jsとChakra UIを使用して、`src/pages/login.tsx`のみを編集して、以下のようなページを作ってください。
+
+どちらもすでにインストールされています。ボタンは必ずこの色にしてください。また、ID欄やパスワード欄は「画面の中央」に配置してください。
+
+### 使用するAPI
+
+POST https://api.we.tips/v1/login
+
+```json
+{
+    "id": "<ID>",
+    "password": "<パスワード>"
+}
+```
+
+でリクエストすると、
+
+```json
+{
+    "accessToken": "<Access Token>",
+    "expiresIn": 86400,
+    "expiresAt": 1719574844,
+    "refreshToken": "<Refresh Token>",
+    "requiresUpdate": false,
+    "userData": {
+        "success": true,
+        "username": "<ID>",
+        "attributes": {
+            "sub": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "email_verified": "true",
+            "admin": true,
+            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "role": "teacher",
+            "email": "test@example.com",
+            "displayName": "<お名前>",
+            "director": [
+                "<チームの名前>",
+                "<チームの名前>"
+            ]
+        }
+    }
+}
+```
+
+と帰ってきます。
